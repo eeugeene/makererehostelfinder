@@ -1,0 +1,9 @@
+class SupabaseConfig {
+  // TODO: Replace with your actual Supabase project URL and anon key
+  // Get these from your Supabase project dashboard
+  static const String supabaseUrl = 'YOUR_SUPABASE_PROJECT_URL';
+  static const String supabaseAnonKey = 'YOUR_SUPABASE_ANON_KEY';
+  
+  // Storage bucket name for hostel images
+  static const String imagesBucket = 'hostel-images';
+}
